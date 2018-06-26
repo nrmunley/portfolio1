@@ -19,6 +19,17 @@ html {
 }
 
 .nav_bar {
+display: grid;
+grid-template-columns: [edge-start] minmax(1rem, 1fr) [content-start] repeat(10, minmax(1rem, 6rem)) [content-end] minmax(1rem, 1fr) [edge-end];
+grid-column-gap: 1rem;
+padding: 0;
+background: white;
+padding-top: 60px;
+font-size: 18px;
+height: 110px;
+}
+
+/*.nav_bar {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 20px;
@@ -27,7 +38,7 @@ html {
   font-size: 18px;
   margin: -20px;
   height:110px;
-}
+}*/
 
 
 /* buttons */
@@ -63,12 +74,10 @@ body {
   margin: 0;
 }
 
-
-
 .container_hero {
   display: grid;
-  grid-template-columns: repeat(12,1fr);
-  grid-gap: 20px;
+  grid-template-columns: [edge-start] minmax(1rem, 1fr) [content-start] repeat(10, minmax(1rem, 6rem)) [content-end] minmax(1rem, 1fr) [edge-end];
+  grid-column-gap: 1rem;
 }
 
 .site_logo {
@@ -129,8 +138,8 @@ padding-top: 330px;
 
 .about {
   display: grid;
-  grid-template-columns: repeat(12,1fr);
-  grid-gap: 20px;
+  grid-template-columns: [edge-start] minmax(1rem, 1fr) [content-start] repeat(10, minmax(1rem, 6rem)) [content-end] minmax(1rem, 1fr) [edge-end];
+  grid-column-gap: 1rem;
 }
 
 .about h3 {
@@ -147,8 +156,8 @@ padding-top: 330px;
 
 .contact {
   display: grid;
-  grid-template-columns: repeat(12,1fr);
-  grid-gap: 20px;
+  grid-template-columns: [edge-start] minmax(1rem, 1fr) [content-start] repeat(10, minmax(1rem, 6rem)) [content-end] minmax(1rem, 1fr) [edge-end];
+  grid-column-gap: 1rem;
   height: 400px;
   background-color: #171F1B;
   color: white;
@@ -175,7 +184,7 @@ padding-top: 330px;
 
 .email_copy {
   grid-column: 2/5;
-  font-size: 14px;
+  font-size: 16px;
   color: white;
   justify-content: center;
   align-items: center;
@@ -200,11 +209,11 @@ padding-top: 330px;
 
 .ticker {
   display: grid;
-  grid-template-columns: repeat(12,1fr);
-  grid-gap: 20px;
+  grid-template-columns: [edge-start] minmax(1rem, 1fr) [content-start] repeat(10, minmax(1rem, 6rem)) [content-end] minmax(1rem, 1fr) [edge-end];
+  grid-column-gap: 1rem;
   background-color: #171F1B;
   color: #C8CCCA;
-  font-size: 18px;
+  font-size: 14px;
   padding-bottom: 30px;
 }
 

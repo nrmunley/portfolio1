@@ -29,18 +29,6 @@ font-size: 18px;
 height: 110px;
 }
 
-/*.nav_bar {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-gap: 20px;
-  background: white;
-  padding-top: 60px;
-  font-size: 18px;
-  margin: -20px;
-  height:110px;
-}*/
-
-
 /* buttons */
 
 .button1 {
@@ -205,6 +193,11 @@ padding-top: 330px;
   grid-column: 9/12;
   align-items: end;
   text-align: right;
+  height: 60px;
+}
+
+.social .linkedin {
+  height: 60px;
 }
 
 .ticker {

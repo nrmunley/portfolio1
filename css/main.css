@@ -124,6 +124,20 @@ padding-top: 330px;
   font-size: 72px;
 }
 
+.resize {
+   height: auto;
+   width: 1440px;
+margin-top: -200px;
+ }
+
+.project-container {
+   display:block;
+   height:400px;
+   background: #FFFFFF;
+   position: relative;
+   overflow: hidden;
+ }
+
 .about {
   display: grid;
   grid-template-columns: [edge-start] minmax(1rem, 1fr) [content-start] repeat(10, minmax(1rem, 6rem)) [content-end] minmax(1rem, 1fr) [edge-end];
@@ -184,7 +198,7 @@ padding-top: 330px;
 
 .image {
   grid-column: 5/9;
-  justify-content: center;
+
   align-items: center;
   text-align: center;
 }
@@ -198,6 +212,16 @@ padding-top: 330px;
 
 .social .linkedin {
   height: 60px;
+  padding-left: 1rem;
+}
+
+.social .dribbble {
+  height: 60px;
+  padding-left: 1rem;
+
+}.social .github {
+  height: 60px;
+  padding-left: 1rem;
 }
 
 .ticker {

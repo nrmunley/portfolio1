@@ -104,8 +104,11 @@ padding-top: 330px;
 
 .project1 {
   display: grid;
-  height: 400px;
-  background: grey;
+  height: 25rem;
+  width: 100%;
+  box-sizing: border-box;
+  background-image: url("../images/project_1.png");
+  background-position: center;
   color: white;
   justify-content: center;
   align-items: center;
@@ -115,28 +118,17 @@ padding-top: 330px;
 
 .project2 {
   display: grid;
-  height: 400px;
-  background: #757685;
+  height: 25rem;
+  width: 100%;
+  box-sizing: border-box;
+  background-image: url("../images/project_2.png");
+  background-position: center;
   color: white;
   justify-content: center;
   align-items: center;
   font-family: "Lobster";
   font-size: 72px;
 }
-
-.resize {
-   height: auto;
-   width: 1440px;
-margin-top: -200px;
- }
-
-.project-container {
-   display:block;
-   height:400px;
-   background: #FFFFFF;
-   position: relative;
-   overflow: hidden;
- }
 
 .about {
   display: grid;
@@ -154,6 +146,7 @@ margin-top: -200px;
   grid-column: 3/11;
   padding-bottom: 100px;
   margin: auto;
+  line-height: 200%;
 }
 
 .contact {

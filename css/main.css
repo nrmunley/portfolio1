@@ -4,7 +4,7 @@ html {
     Sans-Serif;
   font-weight: normal;
   line-height: 150%;
-  color: black
+  color: #7D7F7E;
 }
 
 *,
@@ -78,11 +78,20 @@ body {
   padding-top: 150px;
 }
 
+.welcome {
+  grid-column: 3/11;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 150%;
+  padding-top: 80px;
+  margin-top: none;
+  margin-bottom: auto;
+}
+
 .intro {
   grid-column: 3/11;
   font-size: 24px;
   line-height: 150%;
-  padding-top: 80px;
 }
 
 .intro p {
@@ -96,6 +105,7 @@ h2, h3 {
   font-size: 36px;
   text-align: center;
   padding-bottom: 40px;
+  color: black;
 }
 
 /* projects */
@@ -125,7 +135,7 @@ padding-top: 330px;
   color: white;
   justify-content: center;
   align-items: center;
-  font-family: "Lobster";
+  font-family: "Lobster", cursive;
   font-size: 72px;
 }
 
@@ -152,7 +162,7 @@ padding-top: 330px;
   color: white;
   justify-content: center;
   align-items: center;
-  font-family: "Lobster";
+  font-family: "Lobster", cursive;
   font-size: 72px;
 }
 
@@ -209,21 +219,8 @@ padding-top: 330px;
   font-size: 20px;
 }
 
-.email_copy {
-  grid-column: 2/5;
-  font-size: 16px;
-  color: white;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background: transparent;
-  border: none;
-  padding-top: 20px
-}
-
 .image {
   grid-column: 5/9;
-
   align-items: center;
   text-align: center;
 }

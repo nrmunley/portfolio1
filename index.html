@@ -7,10 +7,54 @@
     <title>Nicolas Munley's Portfolio</title>
 
     <!-- CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Lobster" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/animate.css">
+
+    <style>
+ .welcome {
+	color: #83B29B;
+    position: relative;
+    -webkit-animation-name: anim; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    -moz-animation-name: anim; /* Safari 4.0 - 8.0 */
+    -moz-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    -moz-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes anim {
+    0%   {color:#83B29B;}
+    25%  {color:#171F1B; }
+    50%  {color:#83B29B;}
+    75%  {color:#171F1B;}
+    100% {color:#83B29B;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-moz-keyframes anim {
+    0%   {color:#83B29B;}
+    25%  {color:#171F1B; }
+    50%  {color:#83B29B;}
+    75%  {color:#171F1B;}
+    100% {color:#83B29B;}
+}
+
+/* Standard syntax */
+@keyframes anim {
+    0%   {color:#83B29B;}
+    25%  {color:#171F1B; }
+    50%  {color:#83B29B;}
+    75%  {color:#171F1B;}
+    100% {color:#83B29B;}
+}
+</style>
 
   </head>
 
@@ -28,8 +72,8 @@
 
      <section class="container_hero">
        <div class="site_logo"><img src="images/site-logo.png" alt="Nicolas Munley's Portfolio" /></div>
-       <div class="intro"> <p><b>Welcome.</b><br>
-         I’m Nicolas Munley; not a “rockstar” “guru” or “ninja” but a UX designer that cares about intuitive design with the skills to help you achieve your design goals.</p></div>
+       <div class="welcome"><p><font color="#83B29B">Welcome.</font></p></div>
+       <div class="intro"> <p>I’m Nicolas Munley; not a “rockstar” “guru” or “ninja” but a UX designer based in San Francisco that cares about intuitive design with the skills to help you achieve your design goals.</p></div>
      </section>
 
      <!-- Projects -->
@@ -64,7 +108,6 @@
          <a href="mailto:nrmunley@gmail.com">
          <button class="btn-outline">nrmunley@gmail.com</button>
          </a>
-         <button class="email_copy">(copy address to clipboard)</button>
        </section>
        <section class="image">
          <a href="index.html" class="profile-image"><img src="images/profile_image.png" alt="Nicolas Munley" /></a>

@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
-  font-family: "Helvetica", "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma,
-    Sans-Serif;
+  font-family: "Helvetica", "Lato", "Lucida Grande", "Lucida Sans Unicode", "Tahoma",
+    "Sans-Serif";
   font-weight: normal;
   line-height: 150%;
   color: #7D7F7E;
@@ -119,7 +119,7 @@ padding-top: 330px;
   background-color: #000000;
 }
 
-.project1:hover .project-container1{
+.project1:hover .project-container1 {
   opacity: 0.3;
   color: transparent;
 }
@@ -137,6 +137,13 @@ padding-top: 330px;
   align-items: center;
   font-family: "Lobster", cursive;
   font-size: 72px;
+}
+
+.project1_hover p {
+  display: hidden;
+  font-family: "Helvetica", "Lato", "Lucida Grande", "Lucida Sans Unicode", "Tahoma", "Sans-Serif";
+  font-size: 24px;
+  z-index: 4;
 }
 
 .project2 {
@@ -200,9 +207,9 @@ padding-top: 330px;
 }
 
 .btn-outline {
-  grid-column: 2/5;
+  grid-column: 2/4;
   height: 75px;
-  width: 345px;
+  width: 224px;
   border-radius: 10px;
   border: #83B29B;
   background-color: transparent;
@@ -217,6 +224,26 @@ padding-top: 330px;
   cursor: pointer;
   border-width: 4px;
   font-size: 20px;
+}
+
+.resume:hover img {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.linkedin:hover img {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.dribbble:hover img {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.github:hover img {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 .image {

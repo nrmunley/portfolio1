@@ -4,7 +4,7 @@ html {
     "Sans-Serif";
   font-weight: normal;
   line-height: 150%;
-  color: #7D7F7E;
+  color: #333333;
 }
 
 *,
@@ -41,6 +41,7 @@ z-index: 100;
   padding: 0;
   background: white;
   border: none;
+  color: black;
 }
 
 .button2 {
@@ -50,6 +51,7 @@ z-index: 100;
   padding: 0;
   background: white;
   border: none;
+  color: black;
 }
 
 .button3 {
@@ -59,6 +61,7 @@ z-index: 100;
   padding: 0;
   background: white;
   border: none;
+  color: black;
 }
 
 body {
@@ -166,6 +169,7 @@ padding-top: 330px;
   box-sizing: border-box;
   background-image: url("../images/project_2.png");
   background-position: center;
+  background-size: cover;
   color: white;
   justify-content: center;
   align-items: center;
@@ -186,7 +190,7 @@ padding-top: 330px;
 }
 
 .about p {
-  grid-column: 3/11;
+  grid-column: 4/10;
   padding-bottom: 100px;
   margin: auto;
   line-height: 200%;

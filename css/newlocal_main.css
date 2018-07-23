@@ -1,0 +1,224 @@
+html {
+  box-sizing: border-box;
+  font-family: "Helvetica", "Lato", "Lucida Grande", "Lucida Sans Unicode", "Tahoma",
+    "Sans-Serif";
+  font-weight: normal;
+  line-height: 150%;
+  color: #333333;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.portfolio {
+ display: grid;
+ grid-template-rows: auto;
+}
+
+.nav_bar {
+display: grid;
+grid-template-columns: [edge-start] minmax(1rem, 1fr) [content-start] repeat(10, minmax(1rem, 6rem)) [content-end] minmax(1rem, 1fr) [edge-end];
+grid-column-gap: 1rem;
+padding: 0;
+background: white;
+padding-top: 60px;
+font-size: 18px;
+height: 110px;
+position: fixed;
+width: 100%;
+z-index: 100;
+}
+
+.nav_bar a {
+  grid-column: 2/3;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+/* buttons */
+
+.button1 {
+  grid-column: 6/7;
+  text-align: left;
+  font-size: 18px;
+  padding: 0;
+  background: white;
+  border: none;
+  color: black;
+}
+
+.button2 {
+  grid-column: 7/8;
+  text-align: right;
+  font-size: 18px;
+  padding: 0;
+  background: white;
+  border: none;
+  color: black;
+}
+
+.button3 {
+  grid-column: 8/9;
+  text-align: right;
+  font-size: 18px;
+  padding: 0;
+  background: white;
+  border: none;
+  color: black;
+}
+
+.button4 {
+  grid-column: 9/10;
+  text-align: right;
+  font-size: 18px;
+  padding: 0;
+  background: white;
+  border: none;
+  color: black;
+}
+
+.button5 {
+  grid-column: 10/11;
+  text-align: right;
+  font-size: 18px;
+  padding: 0;
+  background: white;
+  border: none;
+  color: black;
+}
+
+.button6 {
+  grid-column: 11/12;
+  text-align: right;
+  font-size: 18px;
+  padding: 0;
+  background: white;
+  border: none;
+  color: black;
+}
+
+body {
+  margin: 0;
+}
+
+h2, h3 {
+  font-weight: lighter;
+  margin: auto;
+  font-size: 36px;
+  text-align: center;
+  padding-bottom: 40px;
+  color: black;
+}
+
+
+
+/* footer */
+
+.contact {
+  display: grid;
+  grid-template-columns: [edge-start] minmax(1rem, 1fr) [content-start] repeat(10, minmax(1rem, 6rem)) [content-end] minmax(1rem, 1fr) [edge-end];
+  grid-column-gap: 1rem;
+  height: 400px;
+  background-color: #171F1B;
+  color: white;
+  align-items: center;
+}
+
+.email {
+  grid-column: 2/4;
+}
+
+.btn-outline {
+  grid-column: 2/4;
+  height: 75px;
+  width: 224px;
+  border-radius: 10px;
+  border: #83B29B;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  color: white;
+  font-size: 18px;
+}
+
+.btn-outline:hover {
+  cursor: pointer;
+  border-width: 4px;
+  font-size: 20px;
+}
+
+.resume:hover img {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.linkedin:hover img {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.dribbble:hover img {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.github:hover img {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.image {
+  grid-column: 5/9;
+  align-items: center;
+  text-align: center;
+}
+
+.social {
+  grid-column: 9/12;
+  align-items: end;
+  text-align: right;
+  height: 60px;
+}
+
+.social .linkedin {
+  height: 60px;
+  padding-left: 1rem;
+}
+
+.social .dribbble {
+  height: 60px;
+  padding-left: 1rem;
+
+}.social .github {
+  height: 60px;
+  padding-left: 1rem;
+}
+
+.ticker {
+  display: grid;
+  grid-template-columns: [edge-start] minmax(1rem, 1fr) [content-start] repeat(10, minmax(1rem, 6rem)) [content-end] minmax(1rem, 1fr) [edge-end];
+  grid-column-gap: 1rem;
+  background-color: #171F1B;
+  color: #C8CCCA;
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+
+.item1 {
+  grid-column: 2/5;
+
+}
+.item2 {
+  grid-column: 5/9;
+  text-align: center;
+}
+
+.item3 {
+  grid-column: 9/12;
+  text-align: right;
+}

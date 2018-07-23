@@ -64,6 +64,16 @@ z-index: 100;
   color: black;
 }
 
+.buttoncs1 {
+  height: 75px;
+  width: 224px;
+  border-radius: 10px;
+  background-color: #83B29B;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  color: white;
+  font-size: 18px;
+}
+
 body {
   margin: 0;
 }
@@ -123,8 +133,12 @@ padding-top: 330px;
 }
 
 .project1:hover .project-container1 {
-  opacity: 0.3;
+  opacity: 0.2;
   color: transparent;
+}
+
+.project1:hover .project1_hover {
+  opacity: 100%;
 }
 
 .project-container1 {
@@ -138,15 +152,11 @@ padding-top: 330px;
   color: white;
   justify-content: center;
   align-items: center;
-  font-family: "Lobster", cursive;
-  font-size: 72px;
 }
 
-.project1_hover p {
-  display: hidden;
-  font-family: "Helvetica", "Lato", "Lucida Grande", "Lucida Sans Unicode", "Tahoma", "Sans-Serif";
-  font-size: 24px;
-  z-index: 4;
+.project1_hover {
+  opacity: 0;
+  z-index: 1;
 }
 
 .project2 {
@@ -154,12 +164,8 @@ padding-top: 330px;
 }
 
 .project2:hover .project-container2{
-  opacity: 0.3;
+  opacity: 0.2;
   color: transparent;
-}
-
-.project2:hover .project2_title{
-  display: none;
 }
 
 .project-container2 {
@@ -173,8 +179,16 @@ padding-top: 330px;
   color: white;
   justify-content: center;
   align-items: center;
-  font-family: "Lobster", cursive;
-  font-size: 72px;
+}
+
+.project2_hover {
+  opacity: 0;
+  z-index: 1;
+}
+
+.project2_hover:hover {
+  opacity: 1;
+
 }
 
 .about {

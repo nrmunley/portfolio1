@@ -13,7 +13,7 @@ html {
   box-sizing: inherit;
 }
 
-.portfolio {
+.case_study {
  display: grid;
  grid-template-rows: auto;
 }
@@ -114,6 +114,17 @@ h2, h3 {
   color: black;
 }
 
+/* hero */
+
+.container_hero {
+  display: grid;
+  height: 50rem;
+  width: 100%;
+  box-sizing: border-box;
+  background-image: url("../newlocal_cs_images/hero_background.png");
+  background-position: center;
+  background-size: cover;
+}
 
 
 /* footer */

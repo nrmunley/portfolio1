@@ -135,7 +135,7 @@ h2, h3 {
   grid-column: 2/7;
 }
 
-.proto_screen .image {
+.proto_screen img {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   align-items: center;
   justify-content: center;
@@ -149,12 +149,12 @@ h2, h3 {
   line-height: 200%;
 }
 
-.newlocal_logo image {
+.newlocal_logo img {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .newlocal_logo p {
-  margin: none;
+  margin: inherit;
   padding-bottom: 60px;
 }
 
@@ -162,6 +162,7 @@ h2, h3 {
   height: 75px;
   width: 300px;
   border-radius: 10px;
+  border-style: none;
   background-color: #83B29B;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   color: #ffffff;

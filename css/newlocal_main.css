@@ -126,12 +126,17 @@ h2, h3 {
   background-image: url("../newlocal_cs_images/hero_background.png");
   background-position: center;
   background-size: cover;
-  background-color: #000000;
-  opacity: 0.2;
+  align-items: center;
 }
 
 .proto_screen {
   grid-column: 2/7;
+}
+
+.proto_screen .image {
+  align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 
 .newlocal_logo {

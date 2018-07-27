@@ -3,7 +3,7 @@ html {
   font-family: "Helvetica", "Lato", "Lucida Grande", "Lucida Sans Unicode", "Tahoma",
     "Sans-Serif";
   font-weight: normal;
-  line-height: 150%;
+  line-height: 200%;
   color: #333333;
 }
 
@@ -105,13 +105,19 @@ body {
   margin: 0;
 }
 
-h2, h3 {
+h1 {
   font-weight: lighter;
   margin: auto;
   font-size: 36px;
   text-align: center;
-  padding-bottom: 40px;
-  color: black;
+  color: #000000;
+}
+
+h2 {
+  margin: auto;
+  font-size: 24px;
+  text-align: center;
+  color: #000000;
 }
 
 /* hero */
@@ -171,6 +177,19 @@ h2, h3 {
 .proto_button:hover {
   cursor: pointer;
   transform: scale(1.1);
+}
+
+/* Main content */
+
+.intro {
+display: grid;
+grid-template-columns: [edge-start] minmax(1rem, 1fr) [content-start] repeat(10, minmax(1rem, 6rem)) [content-end] minmax(1rem, 1fr) [edge-end];
+grid-column-gap: 1rem;
+}
+
+.content {
+grid-column: 4/10;
+margin: auto;
 }
 
 /* footer */

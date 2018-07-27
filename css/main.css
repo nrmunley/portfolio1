@@ -3,7 +3,7 @@ html {
   font-family: "Helvetica", "Lato", "Lucida Grande", "Lucida Sans Unicode", "Tahoma",
     "Sans-Serif";
   font-weight: normal;
-  line-height: 150%;
+  line-height: 200%;
   color: #333333;
 }
 
@@ -194,6 +194,8 @@ padding-top: 330px;
   opacity: 1;
 
 }
+
+/* About */
 
 .about {
   display: grid;

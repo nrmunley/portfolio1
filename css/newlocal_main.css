@@ -189,6 +189,16 @@ grid-column: 4/10;
 margin: auto;
 }
 
+.content-half .roles{
+grid-column: 2/7;
+margin: auto;
+}
+
+.content-half .tools{
+grid-column: 7/12;
+margin: auto;
+}
+
 /* footer */
 
 .contact {

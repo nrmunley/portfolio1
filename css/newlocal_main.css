@@ -178,20 +178,15 @@ h2 {
 
 /* Main content */
 
-.intro{
- display: grid;
- grid-template-rows: auto;
+.intro {
+display: grid;
+grid-template-columns: [edge-start] minmax(1rem, 1fr) [content-start] repeat(10, minmax(1rem, 6rem)) [content-end] minmax(1rem, 1fr) [edge-end];
+grid-column-gap: 1rem;
 }
 
 .content {
 grid-column: 4/10;
 margin: auto;
-}
-
-.content-half {
-display: grid;
-grid-template-columns: [edge-start] minmax(1rem, 1fr) [content-start] repeat(10, minmax(1rem, 6rem)) [content-end] minmax(1rem, 1fr) [edge-end];
-grid-column-gap: 1rem;
 }
 
 .roles{

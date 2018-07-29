@@ -313,12 +313,30 @@ grid-column-gap: 1rem;
   margin: auto;
 }
 
-.content-left{
-  overflow: hidden;
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
 }
 
-.content-right{
-  overflow: hidden;
+th {
+    text-align: center;
+    padding: 16px;
+    background-color: #83B29B;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+td {
+    text-align: left;
+    padding: 16px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+tr {
+    background-color: #C4C4C4
 }
 
 /* footer */

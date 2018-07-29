@@ -160,7 +160,7 @@ h2 {
   font-weight: lighter;
 }
 
-.proto_button {
+.button_link {
   padding: 20px 40px;
   border-radius: 10px;
   border-style: none;
@@ -172,11 +172,76 @@ h2 {
   font-size: 18px;
 }
 
-.proto_button:hover {
+.button_link:hover {
   cursor: pointer;
 }
 
 /* Main content */
+
+.pb_container1 {
+  display: grid;
+  height: 15rem;
+  width: 100%;
+  box-sizing: border-box;
+  background-image: url("../newlocal_cs_images/architecture_pb.png");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.pb_container2 {
+  display: grid;
+  height: 15rem;
+  width: 100%;
+  box-sizing: border-box;
+  background-image: url("../newlocal_cs_images/architecture_pb.png");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.pb_container3 {
+  display: grid;
+  height: 15rem;
+  width: 100%;
+  box-sizing: border-box;
+  background-image: url("../newlocal_cs_images/branding_pb.png");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.pb_container4 {
+  display: grid;
+  height: 15rem;
+  width: 100%;
+  box-sizing: border-box;
+  background-image: url("../newlocal_cs_images/wireframes_pb.png");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.pb_container5 {
+  display: grid;
+  height: 15rem;
+  width: 100%;
+  box-sizing: border-box;
+  background-image: url("../newlocal_cs_images/testing_pb.png");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
 
 .intro {
 display: grid;
@@ -194,9 +259,20 @@ grid-column: 2/7;
 margin: auto;
 }
 
+.roles p{
+font-size: 24px;
+font-weight: lighter;
+padding-top: 30px;
+}
+
 .tools{
 grid-column: 7/12;
 margin: auto;
+}
+
+.content p{
+  font-size: 18px;
+  padding-top: 30px;
 }
 
 /* footer */

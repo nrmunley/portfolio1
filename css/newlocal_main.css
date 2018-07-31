@@ -349,7 +349,8 @@ tr {
 }
 
 .male_persona{
-  display: grid;
+  grid-column: 2/7;
+  margin: auto;
   height: 20rem;
   width: 100%;
   box-sizing: border-box;
@@ -362,7 +363,8 @@ tr {
 }
 
 .female_persona{
-  display: grid;
+  grid-column: 7/12;
+  margin: auto;
   height: 20rem;
   width: 100%;
   box-sizing: border-box;

@@ -20,11 +20,12 @@ html {
 
 .nav_bar {
   display: grid;
-  grid-template-columns: [edge-start] minmax(1rem, 10rem) [content-start] 1fr repeat(6,auto) [content-end] minmax(1rem, 10rem) [edge-end];
+  grid-template-columns: [edge-start] minmax(1rem, 10rem) [content-start] auto 1fr repeat(6,auto) [content-end] minmax(1rem, 10rem) [edge-end];
   grid-column-gap: 1.5rem;
   padding: 0;
   background: white;
   font-size: 18px;
+  align-items: center;
   height: 110px;
   position: fixed;
   width: 100%;
@@ -33,21 +34,11 @@ html {
 
 .nav_bar a {
   grid-column: 2/3;
-
 }
 
 /* buttons */
 
 .button1 {
-  grid-column: 3/4;
-  font-size: 18px;
-  padding: 0;
-  background: white;
-  border: none;
-  color: black;
-}
-
-.button2 {
   grid-column: 4/5;
   font-size: 18px;
   padding: 0;
@@ -56,7 +47,7 @@ html {
   color: black;
 }
 
-.button3 {
+.button2 {
   grid-column: 5/6;
   font-size: 18px;
   padding: 0;
@@ -65,7 +56,7 @@ html {
   color: black;
 }
 
-.button4 {
+.button3 {
   grid-column: 6/7;
   font-size: 18px;
   padding: 0;
@@ -74,7 +65,7 @@ html {
   color: black;
 }
 
-.button5 {
+.button4 {
   grid-column: 7/8;
   font-size: 18px;
   padding: 0;
@@ -83,8 +74,17 @@ html {
   color: black;
 }
 
-.button6 {
+.button5 {
   grid-column: 8/9;
+  font-size: 18px;
+  padding: 0;
+  background: white;
+  border: none;
+  color: black;
+}
+
+.button6 {
+  grid-column: 9/10;
   font-size: 18px;
   padding: 0;
   background: white;
@@ -175,6 +175,7 @@ h2 {
   display: grid;
   height: 15rem;
   width: 100%;
+  margin: 100px 0;
   box-sizing: border-box;
   background-image: url("../newlocal_cs_images/architecture_pb.png");
   background-position: center;
@@ -188,6 +189,7 @@ h2 {
   display: grid;
   height: 15rem;
   width: 100%;
+  margin: 100px 0;
   box-sizing: border-box;
   background-image: url("../newlocal_cs_images/architecture_pb.png");
   background-position: center;
@@ -201,6 +203,7 @@ h2 {
   display: grid;
   height: 15rem;
   width: 100%;
+  margin: 100px 0;
   box-sizing: border-box;
   background-image: url("../newlocal_cs_images/branding_pb.png");
   background-position: center;
@@ -214,6 +217,7 @@ h2 {
   display: grid;
   height: 15rem;
   width: 100%;
+  margin: 100px 0;
   box-sizing: border-box;
   background-image: url("../newlocal_cs_images/wireframes_pb.png");
   background-position: center;
@@ -227,6 +231,7 @@ h2 {
   display: grid;
   height: 15rem;
   width: 100%;
+  margin: 100px 0;
   box-sizing: border-box;
   background-image: url("../newlocal_cs_images/testing_pb.png");
   background-position: center;
@@ -240,16 +245,12 @@ h2 {
 display: grid;
 grid-template-columns: [edge-start] minmax(1rem, 10rem) [content-start] repeat(10, minmax(1rem, 1fr)) [content-end] minmax(1rem, 10rem) [edge-end];
 grid-column-gap: 1.5rem;
-}
-
-.content {
-grid-column: 4/10;
-margin: auto;
+padding-top: 100px;
 }
 
 .roles{
 grid-column: 2/7;
-margin: auto;
+margin: 0 auto;
 }
 
 .roles p{
@@ -260,16 +261,28 @@ padding-top: 30px;
 
 .tools{
 grid-column: 7/12;
+margin: 0 auto;
+}
+
+.tools img {
+  margin: auto;
+  padding-top: 30px;
+}
+
+.content {
+grid-column: 4/10;
 margin: auto;
+padding-top: 30px;
 }
 
 .content p{
   font-size: 18px;
   padding-top: 30px;
+  margin: auto;
 }
 
 /* Research */
-.container_research {
+.container_heading {
 display: grid;
 grid-template-columns: [edge-start] minmax(1rem, 10rem) [content-start] repeat(10, minmax(1rem, 1fr)) [content-end] minmax(1rem, 10rem) [edge-end];
 grid-column-gap: 1.5rem;
@@ -281,20 +294,21 @@ grid-template-columns: [edge-start] minmax(1rem, 10rem) [content-start] repeat(1
 grid-column-gap: 1.5rem;
 }
 
-.content-half p {
-  padding-bottom: 30px;
-}
-
 .title {
   grid-column: 1/-1;
   margin: auto;
-  padding-top: 100px;
 }
 
 .center-content {
   grid-column: 4/10;
   margin: auto;
   padding-top: 30px;
+}
+
+.center-button {
+  grid-column: 4/10;
+  margin: auto;
+  padding-top: 40px;
 }
 
 .header {
@@ -306,11 +320,21 @@ grid-column-gap: 1.5rem;
 .content-left {
   grid-column: 2/7;
   margin: auto;
+  text-align: center;
+  padding-top: 30px;
 }
 
 .content-right {
   grid-column: 7/12;
   margin: auto;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.content-half p {
+  padding-bottom: 40px;
+  text-align: left;
+  margin:auto;
 }
 
 .content-quarter {

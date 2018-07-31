@@ -349,27 +349,29 @@ tr {
 }
 
 .male_persona{
-display: grid;
-width: 100%;
-box-sizing: border-box;
-background-image: url("../newlocal_cs_images/male_persona.png");
-background-position: center;
-background-size: cover;
-color: white;
-justify-content: center;
-align-items: center;
+  display: grid;
+  height: 20rem;
+  width: 100%;
+  box-sizing: border-box;
+  background-image: url(../newlocal_cs_images/male_persona.png);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  justify-content: center;
+  align-items: center;
 }
 
 .female_persona{
-display: grid;
-width: 100%;
-box-sizing: border-box;
-background-image: url("../newlocal_cs_images/female_persona.png");
-background-position: center;
-background-size: cover;
-color: white;
-justify-content: center;
-align-items: center;
+  display: grid;
+  height: 20rem;
+  width: 100%;
+  box-sizing: border-box;
+  background-image: url(../newlocal_cs_images/female_persona.png);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  justify-content: center;
+  align-items: center;
 }
 
 /* footer */

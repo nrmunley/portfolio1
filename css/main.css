@@ -213,6 +213,8 @@ padding-top: 330px;
   line-height: 200%;
 }
 
+/* Footer */
+
 .contact {
   display: grid;
   grid-template-columns: [edge-start] minmax(1rem, 10rem) [content-start] repeat(10, minmax(1rem, 1fr)) [content-end] minmax(1rem, 10rem) [edge-end];

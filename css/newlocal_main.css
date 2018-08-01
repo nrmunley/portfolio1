@@ -257,6 +257,7 @@ margin: 0 auto;
 font-size: 24px;
 font-weight: lighter;
 padding-top: 30px;
+margin: auto;
 }
 
 .tools{
@@ -272,7 +273,7 @@ margin: 0 auto;
 .content {
 grid-column: 4/10;
 margin: auto;
-padding-top: 30px;
+padding-top: 60px;
 }
 
 .content p{
@@ -400,6 +401,69 @@ tr {
   align-items: center;
 }
 
+
+/* progress animation */
+.progress {
+  background-color: #ffffff;
+  width: 1fr;
+  text-align: center;
+}
+
+.progress p{
+  font-size: 20px;
+}
+
+span1{
+  background-color: red;
+  border-size;1px;
+  height:25px;
+  display: block;
+  animation: prog 1.5s linear forwards;
+}
+
+span2{
+  background-color: red;
+  height:25px;
+  display: block;
+  animation: prog 1.6s linear forwards;
+}
+
+span3{
+  background-color: red;
+  height:25px;
+  display: block;
+  animation: prog 1.7s linear forwards;
+}
+span4{
+  background-color: red;
+  height:25px;
+  display: block;
+  animation: prog 1.8s linear forwards;
+}
+span5{
+  background-color: red;
+  height:25px;
+  display: block;
+  animation: prog 1.9s linear forwards;
+}
+span6{
+  background-color: red;
+  height:25px;
+  display: block;
+  animation: prog 2s linear forwards;
+}
+
+@keyframes prog {
+  0% {width:0%; color:red;}
+  50% {width:50%;
+  background-color:yellow;
+  color:yellow}
+  100% {
+    width:100%;
+    background-color:green;
+    color:white;
+  }
+}
 /* Footer */
 
 .contact {

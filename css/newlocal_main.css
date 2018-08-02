@@ -302,7 +302,7 @@ padding-top: 60px;
 }
 
 /* Research */
-.container_center {
+.container_heading {
 display: grid;
 grid-template-columns: [edge-start] minmax(1rem, 10rem) [content-start] repeat(10, minmax(1rem, 1fr)) [content-end] minmax(1rem, 10rem) [edge-end];
 grid-column-gap: 1.5rem;

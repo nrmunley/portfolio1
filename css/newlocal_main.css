@@ -169,8 +169,8 @@ h2 {
   cursor: pointer;
 }
 
-.btn-outline {
-  padding: 16px;
+.btn-outline-main {
+  padding: 20px 40px;
   border-radius: 10px;
   border: #83B29B;
   background-color: transparent;
@@ -181,7 +181,7 @@ h2 {
   transition: .2s ease;
 }
 
-.btn-outline:hover {
+.btn-outline-main:hover {
   cursor: pointer;
   border-width: 2px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -340,14 +340,12 @@ grid-column-gap: 1.5rem;
 .content-left {
   grid-column: 2/7;
   margin: auto;
-  text-align: center;
   padding-top: 30px;
 }
 
 .content-right {
   grid-column: 7/12;
   margin: auto;
-  text-align: center;
   padding-top: 30px;
 }
 

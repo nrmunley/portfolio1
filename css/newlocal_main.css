@@ -163,10 +163,13 @@ h2 {
   text-align: center;
   text-decoration: none;
   font-size: 18px;
+  transition: .2s ease;
 }
 
 .button_link:hover {
   cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .btn-outline-main {
@@ -481,6 +484,7 @@ span6{
     color:white;
   }
 }
+
 /* Footer */
 
 .contact {
@@ -499,45 +503,50 @@ span6{
 
 .btn-outline {
   grid-column: 2/4;
-  height: 75px;
+  height: 60px;
   width: 224px;
   border-radius: 10px;
   border: #83B29B;
   background-color: transparent;
   border-style: solid;
   border-width: 2px;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   color: white;
   font-size: 18px;
+  transition: .2s ease;
 }
 
 .btn-outline:hover {
   cursor: pointer;
   border-width: 4px;
   font-size: 20px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .resume:hover img {
   cursor: pointer;
   transform: scale(1.1);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .linkedin:hover img {
   cursor: pointer;
   transform: scale(1.1);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .dribbble:hover img {
   cursor: pointer;
   transform: scale(1.1);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .github:hover img {
   cursor: pointer;
   transform: scale(1.1);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.image {
+.avatar {
   grid-column: 5/9;
   align-items: center;
   text-align: center;

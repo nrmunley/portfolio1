@@ -395,6 +395,21 @@ tr {
     background-color: #C4C4C4
 }
 
+.mvp {
+  background-color: #83B29B;
+  color: #000000;
+}
+
+.nice {
+  background-color: #DE894C;
+  color: #000000;
+}
+
+.unnecessary {
+  background-color: #A02222;
+  color: #000000;
+}
+
 .male_persona{
   grid-column: 2/7;
   margin: auto;
@@ -423,6 +438,10 @@ tr {
   align-items: center;
 }
 
+.centered_image {
+  grid-column: 1/-1;
+  margin: auto;
+}
 
 /* progress animation */
 .progress {

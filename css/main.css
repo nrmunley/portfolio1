@@ -142,12 +142,14 @@ opacity: 1;
 display: block;
 width: 100%;
 height: auto;
+-webkit-transition: .5s ease;
 transition: .5s ease;
 backface-visibility: hidden;
 }
 
 .project1_hover {
   max-width: 30rem;
+  -webkit-transition: .5s ease;
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -174,6 +176,7 @@ backface-visibility: hidden;
 
 .project2_hover {
   max-width: 30rem;
+  -webkit-transition: .5s ease;
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -215,6 +218,7 @@ backface-visibility: hidden;
   text-align: center;
   text-decoration: none;
   font-size: 18px;
+  -webkit-transition: .2s ease;
   transition: .2s ease;
 }
 
@@ -273,6 +277,7 @@ backface-visibility: hidden;
   border-width: 2px;
   color: white;
   font-size: 18px;
+  -webkit-transition: .2s ease;
   transition: .2s ease;
 }
 

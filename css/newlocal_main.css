@@ -441,6 +441,7 @@ tr {
 .centered_image {
   grid-column: 1/-1;
   margin: auto;
+  padding-top: 30px;
 }
 
 /* progress animation */

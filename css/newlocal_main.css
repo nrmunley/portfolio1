@@ -448,7 +448,7 @@ tr {
 }
 
 .centered_image {
-  grid-column: 1/-1;
+  grid-column: 2/12;
   margin: auto;
   padding-top: 30px;
 }

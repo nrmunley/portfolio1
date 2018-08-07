@@ -23,9 +23,9 @@
 
     <header class="nav_bar">
       <div class="nl"><img src="newlocal_cs_images/cs_site-logo.png" alt="Home"/></div>
-      <button class="button1">Projects</button>
-      <button class="button2">️️About</button>
-      <button class="button3">Contact</button>
+      <a href="#projects" class="button1">Projects</a>
+      <a href="#about" class="button2">️️About</a>
+      <a href="#contact" class="button3">Contact</a>
     </header>
 
     <!-- Hero -->
@@ -38,7 +38,8 @@
 
      <!-- Projects -->
 
-     <section class="projects">
+     <div id="projects">
+       <section class="projects">
        <h2>Projects</h2>
        <div class="project1-container">
          <img src="images/project_1.png" alt="newlocal" class="image" style="width:100%">
@@ -59,8 +60,10 @@
          </div>
        </div>
      </section>
+     </div>
 
      <!-- About -->
+     <div id="about">
      <section class="about">
        <h3>About</h3>
        <p>The problem-solving skills I learned studying Civil Engineering in college coupled with a creative youth filled with ceramics and architectural design courses have helped me find a balance between data-driven functionality and aesthetically pleasing solutions.</p>
@@ -69,33 +72,36 @@
        <p>You can apply design principles to almost any problem you are trying to solve or any product you are trying to build. If you are making something that a human will touch, some thought and testing should go into all aspects of the design that the human will interact with, it doesn’t matter if it’s a stove, a washer/dryer, a new banking application or a robot car. With new technologies comes new interactions and all of these interactions should be put to the test to provide the greatest chance for success.
        </p>
      </section>
+   </div>
 
      <!-- Footer -->
+     <div id="contact">
      <footer class="contact">
-       <section class="email">
+       <div class="email">
          <a href="mailto:nrmunley@gmail.com">
          <button class="btn-outline">nrmunley@gmail.com</button>
          </a>
-       </section>
-       <section class="avatar">
+       </div>
+       <div class="avatar">
          <img src="images/profile_image.png" alt="Nicolas Munley" />
-       </section>
-       <section class="social">
+       </div>
+       <div class="social">
          <a href="resume.pdf" target="_blank" class="resume"><img src="images/resume.png" alt="Resume" /></a>
          <a href="https://www.linkedin.com/in/nicolasmunley" target="_blank" class="linkedin"><img src="images/linkedin_logo.png" alt="LinkedIn" /></a>
          <a href="https://dribbble.com/nrmunley" target="_blank" class="dribbble"><img src="images/dribbble_logo.png" alt="Dribbble" /></a>
          <a href="https://github.com/nrmunley" target="_blank" class="github"><img src="images/github_logo.png" alt="Github" /></a>
-       </section>
+       </div>
      </footer>
      <section class="ticker">
          <div class="item1">&#169; 2018 Nicolas Munley</div>
          <div class="item2">San Francisco, CA</div>
          <div class="item3">(415) 810-3223</div>
      </section>
-   </section>
+   </div>
 
    <script src="js/jquery-3.2.1.min.js"></script>
    <script src="js/main.js"></script>
+   <script src="js/button_scroll.js"></script>
    <script type="text/javascript">
      $(".nl").scroll();
     </script>

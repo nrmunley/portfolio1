@@ -168,7 +168,6 @@ h3 {
 }
 
 .proto_screen img {
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   align-items: center;
   justify-content: center;
   align-content: center;
@@ -190,11 +189,10 @@ h3 {
 }
 
 .button_link {
-  padding: 20px 40px;
+  padding: 16px 36px;
   border-radius: 10px;
   border-style: none;
   background-color: #83B29B;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   color: #ffffff;
   text-align: center;
   text-decoration: none;
@@ -205,12 +203,12 @@ h3 {
 
 .button_link:hover {
   cursor: pointer;
-  transform: scale(1.1);
+  padding: 20px 40px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .btn-outline-main {
-  padding: 20px 40px;
+  padding: 16px 36px;
   border-radius: 10px;
   border: #83B29B;
   background-color: transparent;
@@ -224,6 +222,7 @@ h3 {
 
 .btn-outline-main:hover {
   cursor: pointer;
+  padding: 20px 40px;
   border-width: 2px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   font-size: 16px;
@@ -358,36 +357,52 @@ grid-column-gap: 1.5rem;
 .title {
   grid-column: 1/-1;
   margin: auto;
+  padding-bottom: 30px;
+}
+
+.center-content-header {
+  grid-column: 4/10;
+  margin: auto;
+  padding-bottom:100px;
 }
 
 .center-content {
   grid-column: 4/10;
   margin: auto;
-  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.center-content p{
+  margin: auto;
 }
 
 .center-button {
   grid-column: 4/10;
   margin: auto;
-  padding-top: 40px;
+  padding-bottom: 100px;
+}
+
+.center-button-last {
+  grid-column: 4/10;
+  margin: auto;
 }
 
 .header {
   grid-column: 1/-1;
   margin: auto;
-  padding-top: 60px;
+  padding-bottom: 30px;
 }
 
 .content-left {
   grid-column: 2/7;
   margin: auto;
-  padding-top: 30px;
+  padding-bottom: 100px;
 }
 
 .content-right {
   grid-column: 7/12;
   margin: auto;
-  padding-top: 30px;
+  padding-bottom: 100px;
 }
 
 .content-half p {
@@ -458,35 +473,28 @@ tr {
 .male_persona{
   grid-column: 2/7;
   margin: auto;
-  height: 20rem;
   width: 100%;
   box-sizing: border-box;
-  background-image: url(../newlocal_cs_images/male_persona.png);
-  background-position: center;
-  background-size: cover;
-  color: white;
-  justify-content: center;
-  align-items: center;
+  padding-bottom: 30px;
 }
 
 .female_persona{
   grid-column: 7/12;
   margin: auto;
-  height: 20rem;
   width: 100%;
   box-sizing: border-box;
-  background-image: url(../newlocal_cs_images/female_persona.png);
-  background-position: center;
-  background-size: cover;
-  color: white;
-  justify-content: center;
-  align-items: center;
+  padding-bottom: 30px;
 }
 
-.centered_image {
+.centered-image {
   grid-column: 2/12;
   margin: auto;
-  padding-top: 30px;
+}
+
+.centered-image-wf {
+  grid-column: 2/12;
+  margin: auto;
+  padding-bottom: 30px;
 }
 
 /* progress animation */

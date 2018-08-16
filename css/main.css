@@ -433,3 +433,10 @@ backface-visibility: hidden;
     text-align: center;
   }
   }
+
+  @media (max-width: 480px) {
+    .container_hero {
+      height: 100%;
+      width: 100%;
+    }
+  }

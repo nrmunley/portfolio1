@@ -10,3 +10,16 @@ $(window).scroll(function() {
    $('.nl')
   }
 });
+
+$(window).scroll(function() {
+
+ if ($(this).scrollTop()>140)
+  {
+     $('.top').fadeIn();
+  }
+ else
+  {
+   $('.top').fadeOut();
+   $('.top')
+  }
+});

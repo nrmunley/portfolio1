@@ -383,6 +383,19 @@ backface-visibility: hidden;
 }
 
 @media (max-width: 988px) {
+  .hover_content {
+    color: white;
+    font-size: 2vw;
+    padding: 16px 32px;
+  }
+
+  .hover_content p {
+    margin: auto;
+    padding-bottom: 40px;
+    font-size: 2vw;
+    text-align: left;
+  }
+
   .contact {
     display: grid;
     grid-template-columns: [edge-start] minmax(1rem, 10rem) [content-start] auto [content-end] minmax(1rem, 10rem) [edge-end];
@@ -434,9 +447,10 @@ backface-visibility: hidden;
   }
   }
 
-  @media (max-width: 480px) {
-    .container_hero {
-      height: 100%;
-      width: 100%;
+  @media (min-width:320px) and (max-width:420px){
+
+    .about {
+      display: block;
+      margin: 0 10px;
     }
   }

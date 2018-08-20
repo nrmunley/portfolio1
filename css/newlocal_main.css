@@ -183,7 +183,7 @@ h3 {
 
 .newlocal_logo p {
   margin: inherit;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
   font-size: 18px;
   font-weight: lighter;
 }
@@ -364,6 +364,10 @@ grid-column-gap: 1.5rem;
   grid-column: 4/10;
   margin: auto;
   padding-bottom:100px;
+}
+
+.center-content-header p{
+  margin: auto;
 }
 
 .center-content {

@@ -46,11 +46,6 @@ html {
   line-height: normal;
 }
 
-.top a {
-  text-decoration: none;
-  color: #83B29B;
-}
-
 /* buttons */
 
 .button1 {
@@ -142,12 +137,27 @@ h2, h3 {
   color: black;
 }
 
+@media (min-width:300px) and (max-width:420px){
+
+  .container_hero {
+    display: block;
+    margin: 0 1rem;
+  }
+}
+
 /* projects */
 
 .projects {
 display: grid;
 padding-top: 330px;
 padding-bottom: 100px;
+}
+
+@media (min-width:300px) and (max-width:420px){
+
+  .projects {
+    padding-top: 100px;
+  }
 }
 
 .project1-container {
@@ -268,11 +278,11 @@ backface-visibility: hidden;
   line-height: 200%;
 }
 
-@media (min-width:320px) and (max-width:420px){
+@media (min-width:300px) and (max-width:420px){
 
   .about {
     display: block;
-    margin: 0 10px;
+    margin: 0 1rem;
   }
 }
 

@@ -137,7 +137,7 @@ html {
 .label-container{
 	position:fixed;
 	bottom:48px;
-	right:105px;
+	left:105px;
 	display:table;
 	visibility: hidden;
 }
@@ -163,12 +163,12 @@ html {
 	width:60px;
 	height:60px;
 	bottom:40px;
-	right:40px;
-	background-color:#06C;
+	left:40px;
+	background-color:#83B29B;
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
-	box-shadow: 2px 2px 3px #999;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .my-float{

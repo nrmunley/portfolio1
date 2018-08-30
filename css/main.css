@@ -85,14 +85,6 @@ html {
   z-index: 1000;
 }
 
-.label-arrow{
-	display:table-cell;
-	vertical-align:middle;
-	color:#333;
-	opacity:0.5;
-  z-index: 1000;
-}
-
 .float{
 	position:fixed;
 	width:60px;
@@ -135,6 +127,32 @@ a.float:hover + div.label-container{
   .top p{
     display: none;
   }
+
+/* back to top for small screens */
+
+.label-container{
+	display: none;
+}
+
+.label-text{
+	display: none;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	left:10px;
+	background-color:transparent;
+	color:#83B29B;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: none;
+  font-size: 24px;
+  z-index: 1000;
+}
+
 }
 
 /* Body */

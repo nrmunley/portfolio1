@@ -18,7 +18,7 @@ html {
  grid-template-rows: auto;
 }
 
-/* top nav original */
+/* top nav */
 
 .topnav {
   display: grid;
@@ -115,6 +115,8 @@ a.float:hover + div.label-container{
   visibility: visible;
   opacity: 1;
 }
+
+/* topnav for small screens */
 
 @media screen and (max-width: 600px) {
   .topnav{
@@ -345,6 +347,8 @@ backface-visibility: hidden;
   line-height: 200%;
 }
 
+/* about section for phones */
+
 @media (min-width:300px) and (max-width:420px){
 
   .about {
@@ -465,6 +469,8 @@ backface-visibility: hidden;
   grid-column: 4;
   text-align: right;
 }
+
+/* footer for smaller screens */
 
 @media (max-width: 988px) {
   .hover_content {

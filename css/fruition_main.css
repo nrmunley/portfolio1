@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+  font-family: "Helvetica", "Lato", "Lucida Grande", "Lucida Sans Unicode", "Tahoma",
+    "Sans-Serif";
+  font-weight: normal;
+  line-height: 200%;
+  color: #333333;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Body */
+
+body {
+  margin: 0;
+}
+
+.container_hero {
+  display: grid;
+  grid-template-rows: auto;
+  grid-column-gap: 1.5rem;
+  text-align: center;
+}
+
+.site_logo {
+  justify-content: center;
+  padding-top: 150px;
+}
+
+.message {
+  font-size: 30px;
+  line-height: 150%;
+  padding-top: 80px;
+}
+
+.home-button a{
+  font-size: 50px;
+  color: #7D7F7E;
+}
+
+.home-button a:hover {
+  font-size: 54px;
+  color: #83B29B;
+}

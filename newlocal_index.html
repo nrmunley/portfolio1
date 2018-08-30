@@ -14,7 +14,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>Nicolas Munley Design | Portfolio</title>
+    <title>Nicolas Munley Design | Newlocal Case Study</title>
 
 	  <link rel="icon" type="image/png" href="images/favicon-32.png" sizes="32x32" />
 	  <link rel="icon" type="image/png" href="images/favicon-16.png" sizes="16x16" />
@@ -32,9 +32,30 @@
     <a name="up"></a>
     <section class ="case_study">
 
+<!--responsive nav attempt-->
+      <div class="topnav" id="myTopnav">
+  <a href="https://www.nicolasmunley.com" class="active float2"><img src="newlocal_cs_images/cs_site-logo.png" alt="Home"/></a>
+  <div class="label-container2">
+  <div class="label-text">Home</div>
+  </div>
+  <a href="#research" class="button1">Research</a>
+  <a href="#architecture" class="button2">Information Architecture</a>
+  <a href="#brand" class="button3">Branding</a>
+  <a href="#wf" class="button4">Wireframes</a>
+  <a href="#user-testing" class="button5">User Testing</a>
+  <a href="#conclusion" class="button6">Conclusion</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<!-- original nav
+
     <header class="nav_bar">
-      <div class="top">Home >>></div>
-      <a href="https://www.nicolasmunley.com"><img src="newlocal_cs_images/cs_site-logo.png" alt="Home"/></a>
+      <a href="https://www.nicolasmunley.com" class="float2"><img src="newlocal_cs_images/cs_site-logo.png" alt="Home"/></a>
+      <div class="label-container2">
+      <div class="label-text">Home</div>
+      </div>
       <button class="button1"><a href="#research">Research</a></button>
       <button class="button2"><a href="#architecture">Information Architecture</a></button>
       <button class="button3"><a href="#brand">Branding</a></button>
@@ -42,14 +63,13 @@
       <button class="button5"><a href="#user-testing">User Testing</a></button>
       <button class="button6"><a href="#conclusion">Conclusion</a></button>
     </header>
-
+-->
     <!-- Float button -->
     <a href="#up" class="float">
 <i class="fa fa-arrow-up my-float"></i>
 </a>
 <div class="label-container">
 <div class="label-text">Back to Top</div>
-<i class="label-arrow"></i>
 </div>
 
     <!-- Hero -->
@@ -127,15 +147,15 @@
       <div class="header"><h2>User Personas</h2></div>
       <div class="center-content"><p>I did several follow up interviews to further define who our users were and what exactly they wanted and needed out of a product like newlocal.</p></div>
          <div class="male_persona">
-          <img src="newlocal_cs_images/male_persona.png" alt="Male User Persona" style="width:100%;background-color:#c4c4c4;"/>
           <p style="padding:0px 10px;background-color:#C4C4C4;text-align:center;">Monzano G. | Mega Fan - Group Mentality</p>
+          <img src="newlocal_cs_images/male_persona.png" alt="Male User Persona" style="width:100%;background-color:#c4c4c4;"/>
           <p style="padding-bottom:0px;"><b>Motivations:</b> Is from the mid-west, but lives in the Bay Area and can never find bars that play his favorite college football games.</p>
           <p style="padding-bottom:0px;"><b>Goals:</b> find bars that play his favorite sports teams games; get a more tailored experience from the applications he uses.</p>
           <p><b>Frustrations:</b> Unhappy with search features on apps he currently uses.</p>
          </div>
          <div class="female_persona">
-           <img src="newlocal_cs_images/female_persona.png" alt="Female User Persona" style="width:100%;background-color:#c4c4c4;"/>
            <p style="padding:0px 10px;background-color:#C4C4C4;text-align:center;">Natalia J. | Big Time Fan - Ambiance Seeker</p>
+           <img src="newlocal_cs_images/female_persona.png" alt="Female User Persona" style="width:100%;background-color:#c4c4c4;"/>
            <p style="padding-bottom:0px;"><b>Motivations:</b> Often travels for work and follows her favorite sports team while on the road for business.</p>
            <p style="padding-bottom:0px;"><b>Goals:</b> Would like one app with all info regarding sports stats, game times, where to watch etc...</p>
            <p><b>Frustrations:</b> Not being able to find an establishment that plays the game of the sports team shesupports when not in that city and she is often inundated with information she isn’t interested in.</p>
@@ -324,6 +344,7 @@
 
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/responsive.js"></script>
   <script src="js/button_scroll.js"></script>
   <script type="text/javascript">
     $(".nl").scroll();

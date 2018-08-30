@@ -48,7 +48,7 @@ html {
 
 
 
-/* Add a black background color to the top navigation */
+/* Add styling to top navigation */
 .topnav {
   display: grid;
   grid-template-columns: [edge-start] minmax(1rem, 10rem) [content-start] auto 1fr repeat(6,auto) [content-end] minmax(1rem, 10rem) [edge-end];
@@ -74,12 +74,6 @@ html {
   color: black;
 }
 
-/* Add an active class to highlight the current page */
-.active {
-    background-color:transparent;
-    color: white;
-}
-
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
     display: none;
@@ -96,10 +90,8 @@ html {
     font-size: 24px;
   }
 
-  .topnav a.icon:hover {
-    background-color: #C8CCCA;
-  }
 }
+
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 1095px) {
@@ -107,12 +99,28 @@ html {
   .topnav.responsive a.icon {
     display: grid;
     grid-column: 9;
+    padding-top: 40px;
+    background: transparent;
+    color: #83B29B;
+    padding-right: 0;
+  }
+
+  .topnav.responsive a:first-child {
+    display: grid;
+    grid-column: 2;
+    padding-top: 30px;
+    background: transparent;
+    padding-left: 0;
   }
   .topnav.responsive a {
     float: none;
-    display: block;
-    text-align: left;
+    display: grid;
+    grid-column: 9;
+    text-align: right;
     z-index: 1200;
+    background: rgba(51,51,51,0.5);
+    color: white;
+    padding: 0px 10px;
   }
 }
 
@@ -224,13 +232,6 @@ html {
 	vertical-align:middle;
 	padding:10px;
 	border-radius:3px;
-}
-
-.label-arrow{
-	display:table-cell;
-	vertical-align:middle;
-	color:#333;
-	opacity:0.5;
 }
 
 .float{

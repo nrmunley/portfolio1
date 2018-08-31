@@ -622,6 +622,26 @@ grid-column-gap: 1.5rem;
   .content-right {
     grid-column: 2/12;
   }
+
+  .comp-analysis {
+    grid-row: 4;
+  }
+
+  .responsive-flow {
+    grid-row: 4;
+  }
+
+  .responsive-sitemap {
+    display: none;
+  }
+
+  .responsive-logo {
+    grid-row: 3;
+  }
+
+  h3 {
+    text-align: center;
+  }
 }
 
 .content-half p {
@@ -710,6 +730,27 @@ tr {
 .centered-image {
   grid-column: 2/12;
   margin: auto;
+}
+
+.logo-image-dev {
+  grid-column: 2/12;
+  margin: auto;
+}
+.resp-logo {
+  display:none;
+}
+
+/* cell phone logo dev */
+
+@media screen and (max-width: 500px) {
+  .logo-image-dev {
+    display: none;
+  }
+  .resp-logo {
+    grid-column: 2/12;
+    margin: auto;
+    display: block;
+  }
 }
 
 .centered-image-wf {

@@ -385,6 +385,18 @@ h3 {
   font-size: 16px;
 }
 
+/* Responsive hero */
+
+@media screen and (max-width: 1095px) {
+  .proto_screen {
+    display: none;
+  }
+
+  .newlocal_logo {
+    grid-column: 2/12;
+  }
+}
+
 /* Main content */
 
 .pb_container1 {
@@ -498,6 +510,26 @@ padding-top: 60px;
   margin: auto;
 }
 
+/* Responsive Intro */
+
+@media screen and (max-width: 1095px) {
+  .roles{
+  grid-column: 2/12;
+  grid-row: 1;
+  padding-bottom: 60px;
+  }
+
+  .tools{
+    grid-column: 2/12;
+    grid-row: 2;
+  }
+
+  .content {
+  grid-row: 3;
+  grid-column: 2/12;
+  }
+  }
+
 /* Research */
 .container_heading {
 display: grid;
@@ -533,18 +565,29 @@ grid-column-gap: 1.5rem;
   padding-bottom: 30px;
 }
 
+/* content center small screen */
+@media screen and (max-width: 1095px) {
+  .center-content-header {
+    grid-column: 2/12;
+  }
+
+  .center-content {
+    grid-column: 2/12;
+  }
+}
+
 .center-content p{
   margin: auto;
 }
 
 .center-button {
-  grid-column: 4/10;
+  grid-column: 2/12;
   margin: auto;
   padding-bottom: 100px;
 }
 
 .center-button-last {
-  grid-column: 4/10;
+  grid-column: 2/12;
   margin: auto;
 }
 
@@ -557,26 +600,34 @@ grid-column-gap: 1.5rem;
 .content-left {
   grid-column: 2/7;
   margin: auto;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
 }
 
 .content-right {
   grid-column: 7/12;
   margin: auto;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
+}
+
+.content-right img {
+  width:100%;
+}
+
+/* content left and right small screen */
+@media screen and (max-width: 1095px) {
+  .content-left {
+    grid-column: 2/12;
+  }
+
+  .content-right {
+    grid-column: 2/12;
+  }
 }
 
 .content-half p {
   padding-bottom: 40px;
   text-align: left;
   margin:auto;
-}
-
-.content-quarter {
-  display: inline-block;
-  text-align: center;
-  width: 260px;
-  color: #000000;
 }
 
 table {
@@ -643,6 +694,17 @@ tr {
   width: 100%;
   box-sizing: border-box;
   padding-bottom: 30px;
+}
+
+/* personas small screen */
+@media screen and (max-width: 1095px) {
+  .male_persona{
+    grid-column: 2/12;
+  }
+
+  .female_persona{
+    grid-column: 2/12;
+  }
 }
 
 .centered-image {

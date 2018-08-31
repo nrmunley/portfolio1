@@ -46,6 +46,10 @@ html {
   color: black;
 }
 
+.topnav a:hover {
+  color: #83B29B;
+}
+
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
     display: none;
@@ -93,6 +97,10 @@ html {
     background: rgba(51,51,51,0.5);
     color: white;
     padding: 0px 10px;
+  }
+  .topnav.responsive a:hover {
+    color: #83B29B;
+    background-color: white;
   }
 }
 

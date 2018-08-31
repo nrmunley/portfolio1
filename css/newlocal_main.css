@@ -18,34 +18,6 @@ html {
  grid-template-rows: auto;
 }
 
-/* original nav css
-.nav_bar {
-  display: grid;
-  grid-template-columns: [edge-start] minmax(1rem, 10rem) [content-start] auto 1fr repeat(6,auto) [content-end] minmax(1rem, 10rem) [edge-end];
-  grid-column-gap: 1.5rem;
-  padding: 0;
-  background: white;
-  font-size: 18px;
-  align-items: center;
-  height: 110px;
-  position: fixed;
-  width: 100%;
-  z-index: 100;
-  }
-
-.nav_bar a {
-  grid-column: 2/3;
-  text-decoration: none;
-  color: black;
-}
-
-.nav_bar a:hover {
-  cursor: pointer;
-}
-
-*/
-
-
 
 
 /* Add styling to top navigation */
@@ -273,6 +245,34 @@ a.float2 + div.label-container2 {
 a.float2:hover + div.label-container2{
   visibility: visible;
   opacity: 1;
+}
+
+/* back to top for small screens */
+
+@media screen and (max-width: 600px) {
+.label-container{
+	display: none;
+}
+
+.label-text{
+	display: none;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	left:10px;
+	background-color:transparent;
+	color:#83B29B;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: none;
+  font-size: 24px;
+  z-index: 1000;
+}
+
 }
 
 /* standard */

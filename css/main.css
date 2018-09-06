@@ -50,6 +50,7 @@ html {
 
 .topnav a:hover {
     cursor: pointer;
+    color: #83B29B;
   }
 
 .button1 {
@@ -473,17 +474,26 @@ backface-visibility: hidden;
 /* footer for smaller screens */
 
 @media (max-width: 988px) {
+
+.project1_hover a{
+  font-size: 1.5vw;
+}
+
   .hover_content {
     color: white;
-    font-size: 2vw;
-    padding: 16px 32px;
+    font-size: 1.5vw;
   }
 
   .hover_content p {
     margin: auto;
-    padding-bottom: 40px;
-    font-size: 2vw;
+    padding-bottom: 10px;
+    font-size: 1.5vw;
     text-align: left;
+  }
+
+  .button_link {
+    padding: 10px 20px;
+    border-radius: 4px;
   }
 
   .contact {

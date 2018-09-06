@@ -55,7 +55,7 @@ html {
     display: none;
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+/* When the screen is less than 1095 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 1095px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -582,6 +582,10 @@ grid-column-gap: 1.5rem;
   .center-content {
     grid-column: 2/12;
   }
+
+  .pb_container3{
+    margin-top: 0px;
+  }
 }
 
 .center-content p{
@@ -645,6 +649,10 @@ grid-column-gap: 1.5rem;
 
   .responsive-logo {
     grid-row: 3;
+  }
+
+  .search-hig {
+    grid-row: 7;
   }
 
   h3 {

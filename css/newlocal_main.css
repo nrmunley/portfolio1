@@ -758,7 +758,7 @@ tr {
 
 /* cell phone logo dev */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   .logo-image-dev {
     display: none;
   }
@@ -773,6 +773,36 @@ tr {
   grid-column: 2/12;
   margin: auto;
   padding-bottom: 30px;
+}
+
+.hifi_full {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .hifi_full {
+    display: grid;
+  }
+
+  .hifi_full img {
+    padding-bottom: 0 !important;
+  }
+  .wf_remove {
+    display: none;
+  }
+}
+
+.pref_mobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .pref_mobile {
+    display: grid;
+  }
+  .pref_remove {
+    display: none;
+  }
 }
 
 /* Footer */

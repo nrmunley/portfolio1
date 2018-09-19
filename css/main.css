@@ -82,7 +82,7 @@ html {
 	display:table-cell;
 	vertical-align:middle;
 	padding:10px;
-	border-radius:3px;
+	border-radius:6px;
   z-index: 1000;
 }
 
@@ -309,7 +309,7 @@ backface-visibility: hidden;
 
 .button_link {
   padding: 16px 36px;
-  border-radius: 10px;
+  border-radius: 6px;
   border-style: none;
   background-color: #83B29B;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -359,7 +359,7 @@ backface-visibility: hidden;
 }
 .button_link_inactive {
   padding: 16px 36px;
-  border-radius: 4px;
+  border-radius: 6px;
   border-style: none;
   background-color: #C8CCCA;
   color: #ffffff;
@@ -434,7 +434,7 @@ backface-visibility: hidden;
   grid-column: 2;
   height: 60px;
   width: 224px;
-  border-radius: 10px;
+  border-radius: 6px;
   border: #83B29B;
   background-color: transparent;
   border-style: solid;
@@ -549,7 +549,7 @@ backface-visibility: hidden;
 
   .button_link {
     padding: 10px 20px;
-    border-radius: 4px;
+    border-radius: 6px;
   }
 
   .contact {

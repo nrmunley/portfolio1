@@ -103,7 +103,23 @@ html {
     background-color: white;
   }
 }
-
+@media screen and (max-width: 796px) {
+  .topnav {
+    display: grid;
+    grid-template-columns: [edge-start] minmax(1.5rem, 4rem) [content-start] auto auto minmax(1.5rem, 4rem) [edge-end];
+    grid-column-gap: 1.5rem;
+  }
+  .topnav a.icon {
+    grid-column: 3;
+    text-align: right;
+  }
+  .topnav.responsive a {
+    grid-column: 3;
+  }
+  .topnav.responsive a.icon {
+    grid-column: 3;
+  }
+  }
 
 
 /* top nav button layout */

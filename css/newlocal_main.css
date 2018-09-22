@@ -423,6 +423,7 @@ h3 {
 
 /* Main content */
 
+
 .pb_container1 {
   display: grid;
   height: 15rem;
@@ -431,6 +432,8 @@ h3 {
   box-sizing: border-box;
   background-image: url("../newlocal_cs_images/research_pb.png");
   background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-size: cover;
   color: white;
   justify-content: center;
@@ -445,6 +448,8 @@ h3 {
   box-sizing: border-box;
   background-image: url("../newlocal_cs_images/architecture_pb.png");
   background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-size: cover;
   color: white;
   justify-content: center;
@@ -459,6 +464,8 @@ h3 {
   box-sizing: border-box;
   background-image: url("../newlocal_cs_images/branding_pb.png");
   background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-size: cover;
   color: white;
   justify-content: center;
@@ -473,6 +480,8 @@ h3 {
   box-sizing: border-box;
   background-image: url("../newlocal_cs_images/wireframes_pb.png");
   background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-size: cover;
   color: white;
   justify-content: center;
@@ -487,6 +496,8 @@ h3 {
   box-sizing: border-box;
   background-image: url("../newlocal_cs_images/testing_pb.png");
   background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-size: cover;
   color: white;
   justify-content: center;

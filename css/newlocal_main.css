@@ -504,6 +504,12 @@ h3 {
   align-items: center;
 }
 
+@media only screen and (max-width: 992px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
 .intro {
 display: grid;
 grid-template-columns: [edge-start] minmax(1rem, 10rem) [content-start] repeat(10, minmax(1rem, 1fr)) [content-end] minmax(1rem, 10rem) [edge-end];

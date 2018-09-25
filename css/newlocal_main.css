@@ -658,6 +658,7 @@ grid-column-gap: 1.5rem;
   width:100%;
 }
 
+
 /* content left and right small screen */
 @media screen and (max-width: 1095px) {
   .content-left {
@@ -727,25 +728,22 @@ tr {
 }
 
 .mvp {
-  background-color: #83B29B;
-  border-color: #83B29B;
-  border-style: solid;
+  background-color: #c4c4c4;
+  border-style: none;
   border-width: 2px;
   color: #000000;
 }
 
 .nice {
-  background-color: #DE894C;
-  border-color: #DE894C;
-  border-style: solid;
+  background-color: #c4c4c4;
+  border-style: none;
   border-width: 2px;
   color: #000000;
 }
 
 .unnecessary {
-  background-color: #A02222;
-  border-color: #A02222;
-  border-style: solid;
+  background-color: #c4c4c4;
+  border-style: none;
   border-width: 2px;
   color: #000000;
 }

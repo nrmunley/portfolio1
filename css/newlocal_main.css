@@ -26,13 +26,19 @@ html {
   grid-template-columns: [edge-start] minmax(1rem, 10rem) [content-start] auto 1fr repeat(6,auto) [content-end] minmax(1rem, 10rem) [edge-end];
   grid-column-gap: 1.5rem;
   padding: 0;
-  background: white;
+  background: rgba(255, 255, 255, 0.9);
   font-size: 18px;
   align-items: center;
   height: 110px;
   position: fixed;
   width: 100%;
   z-index: 100;
+}
+
+.tnav {
+  height: 110px;
+  width: 100%;
+  background: white;
 }
 
 /* Style the links inside the navigation bar */
@@ -44,6 +50,7 @@ html {
 .topnav a {
   text-decoration: none;
   color: black;
+  background: transparent;
 }
 
 .topnav a:hover {
@@ -106,7 +113,7 @@ html {
 @media screen and (max-width: 796px) {
   .topnav {
     display: grid;
-    grid-template-columns: [edge-start] minmax(1.5rem, 4rem) [content-start] auto auto minmax(1.5rem, 4rem) [edge-end];
+    grid-template-columns: [edge-start] 1.5rem [content-start] auto auto [content-end] 1.5rem [edge-end];
     grid-column-gap: 1.5rem;
   }
   .topnav a.icon {
@@ -421,6 +428,15 @@ h3 {
   }
 }
 
+@media screen and (max-width: 760px) {
+  .container_hero {
+    grid-template-columns: [edge-start] 1.5rem [content-start] auto [content-end] 1.5rem [edge-end];
+  }
+  .newlocal_logo {
+    grid-column: 2/3;
+  }
+}
+
 /* Main content */
 
 
@@ -568,6 +584,25 @@ padding-top: 60px;
   .content {
   grid-row: 3;
   grid-column: 2/12;
+  }
+  }
+
+/* small screens intro */
+
+@media screen and (max-width: 760px) {
+  .intro {
+    grid-template-columns: [edge-start] 1.5rem [content-start] auto [content-end] 1.5rem [edge-end];
+  }
+  .roles{
+  grid-column: 2/3;
+  }
+
+  .tools{
+    grid-column: 2/3;
+  }
+
+  .content {
+  grid-column: 2/3;
   }
   }
 
@@ -786,6 +821,57 @@ tr {
   display:none;
 }
 
+/* main content for phone screens */
+
+@media screen and (max-width: 760px) {
+  .center-content-header {
+    grid-column: 2/3;
+  }
+
+  .center-content {
+    grid-column: 2/3;
+  }
+  .center-button {
+    grid-column: 2/3;
+  }
+
+  .center-button-last {
+    grid-column: 2/3;
+  }
+
+  .content-left {
+    grid-column: 2/3;
+  }
+
+  .content-right {
+    grid-column: 2/3;
+  }
+
+  .container_heading {
+    grid-template-columns: [edge-start] 1.5rem [content-start] auto [content-end] 1.5rem [edge-end];
+  }
+
+  .content-half {
+    grid-template-columns: [edge-start] 1.5rem [content-start] auto [content-end] 1.5rem [edge-end];
+  }
+  .male_persona{
+    grid-column: 2/3;
+  }
+
+  .female_persona{
+    grid-column: 2/3;
+  }
+
+.centered-image {
+  grid-column: 2/3;
+}
+
+.logo-image-dev {
+  grid-column: 2/3;
+}
+
+}
+
 /* cell phone logo dev */
 
 @media screen and (max-width: 768px) {
@@ -793,14 +879,14 @@ tr {
     display: none;
   }
   .resp-logo {
-    grid-column: 2/12;
+    grid-column: 2/3;
     margin: auto;
     display: block;
   }
 }
 
 .centered-image-wf {
-  grid-column: 2/12;
+  grid-column: 2/3;
   margin: auto;
   padding-bottom: 30px;
 }
@@ -834,6 +920,7 @@ tr {
     display: none;
   }
 }
+
 
 /* Footer */
 

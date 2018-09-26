@@ -1,15 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123591248-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-123591248-1');
-</script>
 
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,17 +17,32 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123591248-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-123591248-1');
+</script>
+
   </head>
 
   <body>
+    <script type="text/javascript">
+      $(".nl").scroll();
+     </script>
+
     <a name="up"></a>
     <section class ="portfolio">
 
 
-<!-- CSS Grid Original Nav -->
+<!-- Nav -->
 
     <header class="topnav">
-      <div class="nl"><a href="#up"><img src="newlocal_cs_images/cs_site-logo.png" alt="Home"/></a></div>
+      <div class="nl responsive-logo"><a href="#up"><img src="newlocal_cs_images/cs_site-logo.png" alt="Home"/></a></div>
       <a href="#projects" class="button1">Projects</a>
       <a href="#abt" class="button2">About</a>
       <a href="#contact" class="button3">Contact</a>
@@ -67,7 +74,7 @@
          <img src="images/project_1.png" alt="newlocal" class="image" style="width:100%"/>
          <div class="project1_hover">
            <div class="hover_content">
-             <p>newlocal -<br>iOS application for finding your favorite sports teams local bar</p>
+             <p>Newlocal -<br>iOS application for finding your favorite sports teams local bar</p>
 
            </div>
            <a href="http://www.nicolasmunley.com/newlocal_index.html" class="button_link">View Case Study</a>
@@ -85,10 +92,12 @@
        <div class="projects-responsive">
          <div class="responsive-container">
            <img src="newlocal_cs_images/hero_mockup.png" alt="newlocal" style="width:100%"/>
-           <p style="text-align:left;">newlocal -<br>iOS application for finding your favorite sports teams local bar</p>
+           <p style="text-align:left;font-size:18px;">Newlocal -</p>
+           <p style="text-align:left;">iOS application for finding your favorite sports teams local bar</p>
            <a href="http://www.nicolasmunley.com/newlocal_index.html" class="button_link">View Case Study</a>
            <img src="images/fruition_responsive.png" alt="Fruition Brewing" style="width:100%;padding-top:100px;"/>
-           <p style="text-align:left;">Fruition Brewing -<br>Redesign concept of a craft breweries website</p>
+           <p style="text-align:left;font-size:18px;">Fruition Brewing -</p>
+           <p style="text-align:left;">Redesign concept of a craft breweries website</p>
            <a href="#" onclick="return false;" class="button_link_inactive">Case Study Coming Soon</a>
          </div>
        </div>
@@ -135,9 +144,7 @@
    <script src="js/jquery-3.2.1.min.js"></script>
    <script src="js/main.js"></script>
    <script src="js/button_scroll.js"></script>
-   <script type="text/javascript">
-     $(".nl").scroll();
-    </script>
+
 
   </body>
 </html>

@@ -130,6 +130,9 @@ a.float:hover + div.label-container{
   .top p{
     display: none;
   }
+  .responsive-logo {
+    display:grid !important;
+  }
 
 /* back to top for small screens */
 
@@ -187,6 +190,15 @@ body {
   margin-bottom: auto;
 }
 
+@media screen and (max-width: 600px) {
+  .site_logo {
+    display: none;
+  }
+  .welcome {
+    padding-top: 100px;
+  }
+}
+
 .intro {
   grid-column: 3/11;
   font-size: 24px;
@@ -225,7 +237,7 @@ h2, h3 {
   padding-top: 30px;
 }
 .downArrow a {
-  color: #83B29B; 
+  color: #83B29B;
 }
 .bounce {
 	-moz-animation: bounce 3s infinite;
@@ -654,7 +666,7 @@ backface-visibility: hidden;
   }
 
   .item1 {
-    grid-column: 2;
+    grid-column: -1/1;
     text-align: center;
 
   }

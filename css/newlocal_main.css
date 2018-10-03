@@ -519,6 +519,7 @@ h3 {
 @media only screen and (max-width: 992px) {
     .parallax {
         background-attachment: scroll;
+        height: 10rem;
     }
 }
 
@@ -746,7 +747,7 @@ table {
 th {
     text-align: center;
     padding: 16px;
-    width: 260px;
+    width: 50%;
     background-color: #83B29B;
     font-size: 24px;
     font-weight: lighter;
@@ -762,6 +763,24 @@ td {
 
 tr {
     background-color: #C4C4C4;
+}
+
+.responsive-table {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+.responsive-table {
+  display: grid;
+}
+
+.responsive-table th {
+  width:100%;
+}
+
+.table-full {
+  display: none;
+}
 }
 
 .mvp {

@@ -346,7 +346,6 @@ h3 {
   background-image: url("../newlocal_cs_images/hero_background.jpg");
   background-position: center;
   background-size: cover;
-  padding-top: 110px;
   justify-items: center;
   align-items: center;
 }
@@ -410,10 +409,7 @@ h3 {
 
 .btn-outline-main:hover {
   cursor: pointer;
-  padding: 20px 40px;
-  border-width: 2px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  font-size: 16px;
 }
 
 /* Responsive hero */
@@ -428,7 +424,7 @@ h3 {
   }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
   .container_hero {
     grid-template-columns: [edge-start] 1.5rem [content-start] auto [content-end] 1.5rem [edge-end];
   }
@@ -589,7 +585,7 @@ padding-top: 60px;
 
 /* small screens intro */
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
   .intro {
     grid-template-columns: [edge-start] 1.5rem [content-start] auto [content-end] 1.5rem [edge-end];
   }
@@ -691,6 +687,12 @@ grid-column-gap: 1.5rem;
 
 .content-right img {
   width:100%;
+}
+
+.centered-image-wf {
+  grid-column: 2/12;
+  margin: auto;
+  padding-bottom: 30px;
 }
 
 
@@ -823,7 +825,7 @@ tr {
 
 /* main content for phone screens */
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
   .center-content-header {
     grid-column: 2/3;
   }
@@ -883,12 +885,11 @@ tr {
     margin: auto;
     display: block;
   }
-}
-
-.centered-image-wf {
-  grid-column: 2/3;
-  margin: auto;
-  padding-bottom: 30px;
+  .centered-image-wf {
+    grid-column: 2/3;
+    margin: auto;
+    padding-bottom: 30px;
+  }
 }
 
 .hifi_full {
@@ -906,6 +907,7 @@ tr {
   .wf_remove {
     display: none;
   }
+
 }
 
 .pref_mobile {

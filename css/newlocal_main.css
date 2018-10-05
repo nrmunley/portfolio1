@@ -809,6 +809,20 @@ tr {
   color: #000000;
 }
 
+.responsive-comp {
+  display: none;
+}
+
+/* user stories phones */
+@media screen and (max-width: 414px) {
+  .comp-full{
+    display: none;
+  }
+  .responsive-comp {
+    display: grid;
+  }
+}
+
 .male_persona{
   grid-column: 2/7;
   width: 100%;

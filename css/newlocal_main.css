@@ -544,6 +544,7 @@ font-size: 24px;
 font-weight: lighter;
 padding-top: 30px;
 margin: auto;
+text-align: center;
 }
 
 .tools{
@@ -694,6 +695,11 @@ grid-column-gap: 1.5rem;
 .content-right img {
   width:100%;
 }
+
+/* .survey-chart {
+  width:50%;
+  float: left;
+} */
 
 .centered-image-wf {
   grid-column: 2/12;

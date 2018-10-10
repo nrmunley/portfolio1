@@ -15,7 +15,7 @@ var myChart = new Chart(yelpChart, {
     options: {
         responsive:true,
         title: {
-            display:true,
+            display:false,
             text: '75% Restaurant/Bar searchers use Yelp'
         },
         legend: {
@@ -41,7 +41,7 @@ var myChart1 = new Chart(miscChart, {
     options: {
         responsive:true,
         title: {
-            display:true,
+            display:false,
             text: '35% Sports Bar searchers use Google'
         },
         legend: {

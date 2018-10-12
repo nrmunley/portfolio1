@@ -390,7 +390,7 @@ h3 {
 
 .button_link:hover {
   cursor: pointer;
-  padding: 20px 40px;
+  opacity: .8;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -799,7 +799,7 @@ td {
 }
 
 tr {
-    background-color: #C4C4C4;
+    background-color: #EFEFEF;
 }
 
 .responsive-table {
@@ -821,21 +821,21 @@ tr {
 }
 
 .mvp {
-  background-color: #c4c4c4;
+  background-color: #efefef;
   border-style: none;
   border-width: 2px;
   color: #000000;
 }
 
 .nice {
-  background-color: #c4c4c4;
+  background-color: #efefef;
   border-style: none;
   border-width: 2px;
   color: #000000;
 }
 
 .unnecessary {
-  background-color: #c4c4c4;
+  background-color: #efefef;
   border-style: none;
   border-width: 2px;
   color: #000000;
@@ -1035,24 +1035,28 @@ tr {
 .resume:hover img {
   cursor: pointer;
   transform: scale(1.1);
+  opacity: .8;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .linkedin:hover img {
   cursor: pointer;
   transform: scale(1.1);
+  opacity: .8;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .dribbble:hover img {
   cursor: pointer;
   transform: scale(1.1);
+  opacity: .8;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .github:hover img {
   cursor: pointer;
   transform: scale(1.1);
+  opacity: .8;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 

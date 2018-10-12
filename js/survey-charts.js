@@ -8,7 +8,7 @@ var myChart = new Chart(yelpChart, {
             data: [75,25],
             backgroundColor: [
                 'rgba(131, 178, 155, 1)',
-                'rgba(196, 196, 196, 1)'
+                'rgba(239, 239, 239, 1)'
             ]
         }]
     },
@@ -34,7 +34,7 @@ var myChart1 = new Chart(miscChart, {
             data: [35,65],
             backgroundColor: [
                 'rgba(131, 178, 155, 1)',
-                'rgba(196, 196, 196, 1)'
+                'rgba(239, 239, 239, 1)'
             ]
         }]
     },

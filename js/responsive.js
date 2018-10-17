@@ -6,3 +6,8 @@ function myFunction() {
         x.className = "topnav";
     }
 }
+
+function myFunction2() {
+    var element = document.getElementById("myTopnav");
+   element.classList.remove("responsive");
+}

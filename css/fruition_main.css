@@ -682,13 +682,13 @@ grid-column-gap: 1.5rem;
 
 .content-left {
   grid-column: 2/7;
-  margin: auto;
+
   padding-bottom: 30px;
 }
 
 .content-right {
   grid-column: 7/12;
-  margin: auto;
+
   padding-bottom: 30px;
 }
 

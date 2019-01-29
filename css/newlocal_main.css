@@ -323,6 +323,7 @@ h1 {
 h2 {
   margin: auto;
   font-size: 24px;
+  font-weight: lighter;
   text-align: center;
   color: #000000;
 }
@@ -330,6 +331,7 @@ h2 {
 h3 {
   margin: auto;
   font-size: 24px;
+  font-weight: lighter;
   color: #000000;
   padding-bottom: 20px;
 }

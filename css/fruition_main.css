@@ -363,14 +363,14 @@ h3 {
   width: 100%;
 }
 
-.newlocal_logo {
+.fruition_logo {
   grid-column: 7/12;
   color: white;
   text-align: center;
   line-height: 200%;
 }
 
-.newlocal_logo p {
+.fruition_logo p {
   margin: inherit;
   padding-bottom: 40px;
   font-size: 18px;
@@ -421,7 +421,7 @@ h3 {
     display: none;
   }
 
-  .newlocal_logo {
+  .fruition_logo {
     grid-column: 2/12;
   }
 }
@@ -430,12 +430,15 @@ h3 {
   .container_hero {
     grid-template-columns: [edge-start] 1.5rem [content-start] auto [content-end] 1.5rem [edge-end];
   }
-  .newlocal_logo {
+  .fruition_logo {
     grid-column: 1/-1;
   }
-  .newlocal_logo p {
+  .fruition_logo p {
     padding-left: 2.5em;
     padding-right: 2.5em;
+  }
+  .fruition_logo img {
+    width: 240px;
   }
 }
 
@@ -760,7 +763,7 @@ grid-column-gap: 1.5rem;
     grid-column: 2/12;
   }
 
-  .comp-analysis {
+  .survey-responsive {
     grid-row: 4;
   }
 

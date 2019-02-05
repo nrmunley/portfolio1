@@ -3,7 +3,7 @@ html {
   font-family: "Helvetica", "Lato", "Lucida Grande", "Lucida Sans Unicode", "Tahoma",
     "Sans-Serif";
   font-weight: normal;
-  line-height: 200%;
+  line-height: 1.7;
   color: #333333;
 }
 
@@ -323,7 +323,7 @@ h1 {
 h2 {
   margin: auto;
   font-size: 24px;
-  font-weight: lighter;
+  font-weight: Regular;
   text-align: center;
   color: #000000;
 }
@@ -331,7 +331,7 @@ h2 {
 h3 {
   margin: auto;
   font-size: 24px;
-  font-weight: lighter;
+  font-weight: Regular;
   color: #000000;
   padding-bottom: 20px;
 }
@@ -367,7 +367,7 @@ h3 {
   grid-column: 7/12;
   color: white;
   text-align: center;
-  line-height: 200%;
+  line-height: 1.7;
 }
 
 .fruition_logo p {
@@ -375,6 +375,11 @@ h3 {
   padding-bottom: 40px;
   font-size: 18px;
   font-weight: lighter;
+  text-align: left;
+}
+
+.fruition_logo img {
+  max-width: 200px;
 }
 
 .button_link {
@@ -436,9 +441,6 @@ h3 {
   .fruition_logo p {
     padding-left: 2.5em;
     padding-right: 2.5em;
-  }
-  .fruition_logo img {
-    width: 240px;
   }
 }
 

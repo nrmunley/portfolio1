@@ -689,32 +689,18 @@ grid-column-gap: 1.5rem;
 
 .content-left {
   grid-column: 2/7;
-
+  margin:auto;
   padding-bottom: 30px;
 }
 
 .content-right {
   grid-column: 7/12;
-
+  margin: auto;
   padding-bottom: 30px;
 }
 
 .content-right img {
   width:100%;
-}
-
-.old-site {
-  position: relative;
-  text-align:center;
-  color: white;
-  width: 100%
-}
-
-.overlay_txt {
-  position: absolute;
-  top: 25%;
-  left: 25%;
-  transform: translate(-25%, -25%);
 }
 
 .quarter {

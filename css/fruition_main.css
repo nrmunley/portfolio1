@@ -751,6 +751,10 @@ grid-column-gap: 1.5rem;
     grid-column: 2/12;
   }
 
+  .design-revision {
+    grid-row: 6;
+  }
+
   .survey-responsive {
     grid-row: 5;
   }

@@ -3,7 +3,7 @@ html {
   font-family: "Helvetica", "Lato", "Lucida Grande", "Lucida Sans Unicode", "Tahoma",
     "Sans-Serif";
   font-weight: normal;
-  line-height: 200%;
+  line-height: 1.7;
   color: #333333;
 }
 
@@ -183,7 +183,7 @@ body {
 .welcome {
   grid-column: 3/11;
   font-size: 36px;
-  line-height: 150%;
+  line-height: 1.5;
   padding-top: 80px;
   margin-top: none;
   margin-bottom: auto;
@@ -201,7 +201,7 @@ body {
 .intro {
   grid-column: 3/11;
   font-size: 24px;
-  line-height: 150%;
+  line-height: 1.5;
 }
 
 .intro p {
@@ -478,7 +478,7 @@ backface-visibility: hidden;
   grid-column: 4/10;
   padding-top: 20px;
   margin: auto 0px;
-  line-height: 200%;
+  line-height: 1.7;
   text-align: left;
 }
 

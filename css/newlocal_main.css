@@ -880,6 +880,9 @@ tr {
   .female_persona{
     grid-column: 2/12;
   }
+  .type_responsive {
+    grid-row: 3;
+  }
 }
 
 .centered-image {
